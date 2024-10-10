@@ -1,0 +1,103 @@
+~/workspace/Pyverilog$ python examples/example_controlflow_analyzer.py -t gcd verilogcode/OpenROAD-flow-scripts/flow/designs/src/gcd/gcd.v
+
+Generating LALR tables
+WARNING: 183 shift/reduce conflicts
+FSM signal: gcd.ctrl.state.out, Condition list length: 251
+Condition: (Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, gcd.resp_rdy), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Land), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Eq, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+Condition: (Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Ulnot, Eq, Ulnot, Eq, Ulnot, Eq, Eq, gcd.req_val), Inferring transition condition
+# SIGNAL NAME: gcd.ctrl.state.out
+# DELAY CNT: 0
+any -- ((gcd_dpath_b_reg_out=='d0)&&(!(gcd_dpath_a_reg_out<gcd_dpath_b_reg_out)))--> 2
+0 --((gcd_req_val>'d0)||((gcd_req_val>'d0)&&(!((gcd_dpath_b_reg_out=='d0)&&(!(gcd_dpath_a_reg_out<gcd_dpath_b_reg_out))))))--> 1
+1 --((gcd_dpath_b_reg_out=='d0)&&(!(gcd_dpath_a_reg_out<gcd_dpath_b_reg_out)))--> 2
+2 --((gcd_resp_rdy>'d0)||((gcd_resp_rdy>'d0)&&(!((gcd_dpath_b_reg_out=='d0)&&(!(gcd_dpath_a_reg_out<gcd_dpath_b_reg_out))))))--> 0
+Loop
+(0, 1, 2)

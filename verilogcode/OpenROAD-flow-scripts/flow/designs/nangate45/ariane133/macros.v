@@ -144,4 +144,3 @@ module SyncSpRamBeNx64_00000008_00000100_0_2_d44
    fakeram45_256x16 macro_mem_2 (.clk(Clk_CI),.rd_out(RdData_DO_wire[47:32]),.ce_in(csel_b),.we_in(wren_b),.addr_in(Addr_DI),.w_mask_in(WMaskIn),.wd_in({4'b0000, WrData_DI[43:32]}));
    
 endmodule // SyncSpRamBeNx64_00000008_00000100_0_2_d44
-
