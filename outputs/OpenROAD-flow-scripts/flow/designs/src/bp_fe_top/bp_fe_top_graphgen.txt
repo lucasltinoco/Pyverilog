@@ -1,0 +1,1 @@
+python examples/example_graphgen.py -t instr_scan_eaddr_width_p64_instr_width_p32 -s instr_scan_eaddr_width_p64_instr_width_p32.scan_o verilogcode/OpenROAD-flow-scripts/flow/designs/src/bp_fe_top/pickled.v 
